@@ -265,7 +265,7 @@ while present_node != goal_point:
             if cost[n_action8[0],n_action8[1]]>(cost[n_action8[0],n_action8[1]]+1.414):
                 cost[n_action8[0],n_action8[1]]=(cost[n_action8[0],n_action8[1]]+1.414)
                 parent_node[n_action8[0]][n_action8[1]]=present_node
-#finding the path
+#finding the path backtracking
 p=[]
 def find(goal_point,start_point):
     end =goal_point
